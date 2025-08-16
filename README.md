@@ -36,11 +36,11 @@
 
 ## Usage
 
-1. Go to themes/**prefered flavor**/ and select theme accent that you like.
-2. Open the app's root folder and go into ./themes folder.
-3. Copy theme into that folder.
-4. Into copied theme move folder icons from this repository.
-5. Open Xdbg and go to **Options** > **Themes** > **Your theme**.
+1. Go to `./themes/FLAVOR/` and select the theme accent you like.
+2. Open the app's root folder and navigate to the `./themes` folder.
+3. Copy the theme into that folder.
+4. Move the folder icons from this repository into the copied theme.
+5. Open Xdbg and go to `Options > Themes > Your theme`.
 
 ## 💝 Thanks to
 
