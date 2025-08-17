@@ -39,7 +39,7 @@
 1. Go to `./themes/FLAVOR/` and select the theme accent you like.
 2. Open the app's root folder and navigate to the `./themes` folder.
 3. Copy the theme into that folder.
-4. Move the folder icons from this repository into the copied theme.
+4. Move the folder `./icons` from this repository into the copied theme folder.
 5. Open Xdbg and go to `Options > Themes > Your theme`.
 
 ## 💝 Thanks to
