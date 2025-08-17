@@ -4,7 +4,7 @@ whiskers:
   matrix:
     - flavor
     - accent
-  filename: 'themes/{{flavor.identifier|capitalize}}/{{flavor.identifier|capitalize}}-{{accent}}/style.css'
+  filename: 'themes/{{flavor.identifier|capitalize}}/{{flavor.identifier|capitalize}} {{accent}}/style.css'
 ---
 {%- set  palette = flavor.colors -%}
 

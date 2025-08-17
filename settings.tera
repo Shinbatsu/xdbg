@@ -4,7 +4,7 @@ whiskers:
   matrix:
     - flavor
     - accent
-  filename: 'themes/{{flavor.identifier | capitalize}}/{{flavor.identifier|capitalize}}-{{accent}}/style.ini'
+  filename: 'themes/{{flavor.identifier | capitalize}}/{{flavor.identifier|capitalize}} {{accent}}/style.ini'
 ---
 {%- set palette = flavor.colors -%}
 
@@ -43,8 +43,8 @@ DisassemblyAutoCommentColor= #A0A0A0
 DisassemblyBackgroundColor= #{{palette.base.hex}}
 DisassemblyBookmarkBackgroundColor= #{{palette.yellow.hex}}
 DisassemblyBookmarkColor= #{{palette.base.hex}}
-DisassemblyBreakpointBackgroundColor= #{{palette.red.hex}}
-DisassemblyBreakpointColor= #000000
+DisassemblyBreakpointBackgroundColor= #{{palette.maroon.hex}}
+DisassemblyBreakpointColor= #{{palette.base.hex}}
 DisassemblyByte00BackgroundColor= #XXXXXX
 DisassemblyByte00Color= #{{palette.text.hex}}
 DisassemblyByte7FBackgroundColor= #XXXXXX
@@ -80,12 +80,12 @@ DisassemblySelectionColor= #{{palette.surface0.hex}}
 DisassemblyTracedBackgroundColor= #2C2C38
 DisassemblyUnconditionalJumpLineColor= #A0A0A0
 GraphBackgroundColor= #{{palette.base.hex}}
-GraphBreakpointColor= #{{palette.red.hex}}
+GraphBreakpointColor= #{{palette.maroon.hex}}
 GraphBrfalseColor= #{{palette.red.hex}}
 GraphBrtrueColor= #88B857
 GraphCipColor= #{{palette.green.hex}}
 GraphCurrentShadowColor= #B3F575
-GraphDisabledBreakpointColor= #C54441
+GraphDisabledBreakpointColor= #{{palette.maroon.hex}}
 GraphIndirectcallShadowColor= #{{palette.sky.hex}}
 GraphJmpColor= #88B857
 GraphNodeBackgroundColor= #XXXXXX
@@ -173,7 +173,7 @@ InstructionUncategorizedColor= #{{palette.text.hex}}
 InstructionUnconditionalJumpBackgroundColor= #XXXXXX
 InstructionUnconditionalJumpColor= #{{palette.pink.hex}}
 InstructionUnusualBackgroundColor= #{{palette[accent].hex}}
-InstructionUnusualColor= #000000
+InstructionUnusualColor= #{{palette.base.hex}}
 InstructionValueBackgroundColor= #XXXXXX
 InstructionValueColor= #{{palette.maroon.hex}}
 InstructionXmmRegisterBackgroundColor= #XXXXXX
@@ -206,9 +206,9 @@ SearchListViewHighlightBackgroundColor= #XXXXXX
 SearchListViewHighlightColor= #C60000
 SideBarBackgroundColor= #{{palette.base.hex}}
 SideBarBulletBookmarkColor= #{{palette.yellow.hex}}
-SideBarBulletBreakpointColor= #{{palette.red.hex}}
+SideBarBulletBreakpointColor= #{{palette.maroon.hex}}
 SideBarBulletColor= #{{palette.surface0.hex}}
-SideBarBulletDisabledBreakpointColor= #AA3A38
+SideBarBulletDisabledBreakpointColor= #{{palette.maroon.hex}}
 SideBarCheckBoxBackColor= #{{palette.surface0.hex}}
 SideBarCheckBoxForeColor= #{{palette.text.hex}}
 SideBarCipLabelBackgroundColor= #{{palette.surface0.hex}}
